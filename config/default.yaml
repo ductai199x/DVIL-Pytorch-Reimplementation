@@ -1,0 +1,13 @@
+model_args: {
+  img_size: [240, 432],
+}
+training_args: {
+  lr: 6.0e-3,
+  weight_decay: 1.0e-4,
+  decay_rate: 0.5,
+  decay_step: 5,
+  max_epochs: 40,
+  batch_size: 1,
+  num_workers: 4,
+  max_seq_length: 4,
+}
